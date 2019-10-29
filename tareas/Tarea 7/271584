@@ -1,0 +1,35 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[cp850]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\author{Vargas Diaz Marco Antonio}
+\title{Calcular los parametros de los circuitos de activacion de transistores de potencia}
+\begin{document}
+\maketitle
+\subsection{TRANSISTORES}
+Los transistores bipolares se usan generalmente en electronica analogica tambien algunas aplicaciones de electronica digital como la tecnologia TTL o BICMOS.
+Se consideran dispositivos activos porque pueden obtener una mayor corriente de salida
+a partir de, corriente o tension de entrada, y por lo tanto, se utilizan en amplificacion de corrientes y tensiones.
+Disponen de 3 terminales, pudiendo adoptar varias configuraciones:considerandose
+como entrada dos de ellos y de salida el tercero.
+\subsection{clasificacion}
+\subsubsection{transistor bipolar BJT}
+Formado por dos uniones PN con tres zonas cada una conectada a los terminales:C: "Colector", la zona
+central es la B:"Base" y E: "Emisor". El Emisor esta muy impurificado, la Base tiene una impurificacion
+muy baja, mientras que el Colector posee una impurificacion intermedia.
+Un transistor es similar a dos diodos, el transistor tiene dos uniones: una entre el emisor y la base y la otra entre la base y el colector. El emisor y la base forman uno de los diodos, mientras que el colector y la base
+forman el otro. Estos diodos son denominados: "Diodo de emisor" y "Diodo
+de colector".
+\includegraphics[width=9cm]{Captura de pantalla de 2019-10-29 06-18-21.png} 
+\subsubsection{curvas caracteristicas y regiones de funcionamiento}
+\includegraphics[width=15cm]{curvas.png} 
+\subsection{POTENCIA MAXIMA DE UN TRANSISTOR}
+\includegraphics[width=15cm]{potencia.png}
+\subsection{PUERTAS LOGICAS CON DIODOS Y TRANSISTORES}
+\includegraphics[width=15cm]{logicas.png}
+\subsection{IDENTIFICACION DE LOS TERMINALES Y ESTADOS DE UN TRANSISTOR}
+\includegraphics[width=15cm]{transistor.png} 
+\end{document}
